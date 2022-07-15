@@ -8,5 +8,3 @@ export const contactSchema = new mongoose.Schema({
   creationDate: { type: Date, required: true },
   ip: { type: String, required: true },
 });
-
-module.exports(contactSchema);
